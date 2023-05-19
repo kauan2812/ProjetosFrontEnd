@@ -7,8 +7,8 @@ Resultado final: ![image](https://github.com/kauan2812/ProjetosFrontEnd/assets/5
 
 ## Projeto 02 | Landing Page
 -> Esta landing page foi meu segundo projeto, um projeto um pouco mais complexo do que o primeiro. Foi utilizado somente HTML e CSS.
-Feito com o objetivo de praticar HTML, CSS e colocar em prática o responsividade. <br>
-Como não cabe tudo, vou deixar uma imagem do menu.<br>
+Feito com o objetivo de praticar HTML, CSS e colocar em prática a responsividade. <br>
+Como não coube tudo, vou deixar uma imagem do menu.<br>
 ![image](https://github.com/kauan2812/ProjetosFrontEnd/assets/57874837/a4b22c51-d573-4b20-8a0d-ea20937e8078)
 
 
