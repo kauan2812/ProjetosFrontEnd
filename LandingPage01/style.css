@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.center {
+    display: flex;
+    max-width: 1200px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+section.main {
+    background-image: url(images/bg.svg);
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 20px 0 80px 0;
+}
+
+/*-----------------------------------------------------
+-------------------------MENU--------------------------
+-----------------------------------------------------*/
+
+.menu {
+    display: flex;
+    width: 100%;
+}
+
+.infos-menu-footer,
+.logo-menu{width: 50%;}
+.itens-menu{
+    width: 50%;
+    text-align: right;
+}
+
+.itens-menu a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.itens-menu a:hover {
+    border-bottom: 2px solid #FFDD33;
+}
+
+.itens-menu a.contact-btn {
+    background-color: #0F3FD3;
+    padding: 18px 25px;
+    border-radius: 10px;
+}
+
+.itens-menu a.contact-btn:hover {
+    border: 0;
+    background-color: #042da7;
+}
+
+/*-----------------------------------------------------
+------------------------MOCKUP-------------------------
+-----------------------------------------------------*/
+
+.mockup {
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 100px;    
+}
+
+.mockup img {
+    width: 70%;
+}
+
+.mockup h1 {
+    font-weight: normal;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.mockup p {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.text-mockup {
+    margin: 30px 0;
+}
+
+/*-----------------------------------------------------
+------------------------MARCAS-------------------------
+-----------------------------------------------------*/
+
+section.marcas {
+    padding: 100px 0;
+}
+
+section.marcas img {
+    width: 20%;
+}
+
+/*-----------------------------------------------------
+------------------------PQNOS--------------------------
+-----------------------------------------------------*/
+
+section.porque-nos {
+    background-color: #FBFCFE;
+    margin-bottom: 100px;
+}
+
+section.porque-nos .text-pqnos {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 100px 0;
+}
+
+section.porque-nos .text-pqnos h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #040404;
+}
+
+section.porque-nos .text-pqnos p {
+    font-weight: normal;
+    font-size: 20px;
+    color: #7E92AC;
+}
+
+.diferenciais {
+    display: flex;
+    margin-top: 50px;
+}
+
+.box-diferenciais {
+    box-shadow: 0px 20px 40px #2426721C;
+    width: 31%;
+    margin-right: 2%;
+    padding: 10px 20px;
+}
+
+.box-diferenciais img {
+    width: 70px;
+    height: 70px;
+}
+
+.box-diferenciais h3 {
+    font-size: 22px;
+    padding: 0 14px;
+}
+
+.box-diferenciais p {
+    color: #7E92AC;
+    font-size: 16px;
+    padding: 14px;
+}
+
+/*-----------------------------------------------------
+------------------------CTA----------------------------
+-----------------------------------------------------*/
+
+section.cta {
+    background-image: url(images/banner_meio.svg);
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 80px 0;
+}
+
+section.cta h2 {
+    width: 100%;
+    color: #fff;
+    font-size: 50px;
+    font-weight: normal;
+    padding: 20px;
+}
+
+section.cta p {
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+section.cta a {
+    text-decoration: none;
+    color: #0F3FD3;
+    background-color: #FFDD33;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+/*-----------------------------------------------------
+----------------------BENEFICIOS-----------------------
+-----------------------------------------------------*/
+ 
+.beneficios {
+    margin: 100px 0;
+}
+
+.lista-beneficios {
+    width: 50%;
+    padding: 20px 0;
+}
+
+.lista-beneficios h2 {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.lista-beneficios i {
+    text-align: center;
+    background-color: #Cafac6;
+    padding: 10px;
+    border-radius: 5px;
+    color: #49f236;
+}
+
+.lista-beneficios p {
+    vertical-align: middle;
+    font-size: 16px;
+    padding: 16px 0;
+}
+
+.lista-beneficios span {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(100% - 40px);
+    padding: 0 20px;
+}
+
+.lista-beneficios a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #255AFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+.img-beneficios {
+    width: 50%;
+}
+
+.img-beneficios img {
+    max-width: 100%;
+}
+
+
+/*-----------------------------------------------------
+---------------------DEPOIMENTOS-----------------------
+-----------------------------------------------------*/
+
+.depoimentos {
+    background-color: #FBFCFE;
+    margin: 100px 0;
+}
+
+.depoimentos h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+.depoimentos-sec { 
+    display: flex;
+    width: 100%;
+}
+
+.box-depoimentos {
+    width: 31%;
+    box-shadow: 0px 20px 40px #2426721C;
+    margin-right: 2%;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.box-depoimentos img {
+    max-width: 70px;
+    /* margin: 15px 0; */
+}
+
+.box-depoimentos h3 {
+    color: black;
+    font-weight: normal;
+    font-size: 23px;
+    padding: 15px 0;
+}
+
+.box-depoimentos p {
+    color: #7E92AC;
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.box-depoimentos p i {
+    color: #ECC114;
+}
+
+
+/*-----------------------------------------------------
+----------------FORMULARIO DE CONTATO------------------
+-----------------------------------------------------*/
+.form-contato {
+    margin: 200px 0;
+    text-align: center;
+}
+
+.form-contato h2 {
+    width: 100%;
+    font-size: 50px;
+}
+
+.form-contato form {
+    padding: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+form input[type=text],
+form input[type=email] {
+    padding: 25px 0 25px 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    max-width: 500px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #C3CCE8;
+
+    font-size: 13px;
+    color: #7E92AC;
+    font-weight: bold;
+}
+
+form textarea {
+    resize: none;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+    margin: 10px auto;
+    max-width: 500px;
+    width: 100%;
+    height: 150px;
+    border: 1px solid #C3CCE8;
+
+    font-size: 14px;
+    color: #7E92AC;
+    font-weight: bold;
+}
+
+form input[type=submit] {
+    border-radius: 10px;
+    margin: 10px 0;
+    max-width: 500px;
+    width: 100%;
+    height: 45px;
+    border: 0;
+    background-color: #255AFF;
+    letter-spacing: 1.5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover {
+    border: 0;
+    background-color: #042da7;
+}
+
+/*-----------------------------------------------------
+------------------------FOOTER-------------------------
+-----------------------------------------------------*/
+
+
+footer {
+    background-color: #255AFF;
+}
+
+.menu-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.menu-footer p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.itens-menu-footer a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.itens-menu-footer a:hover {
+    border-bottom: 2px solid #FFDD33;
+}
+
+.itens-menu-footer a.contact-btn {
+    background-color: #0F3FD3;
+    padding: 18px 25px;
+    border-radius: 10px;
+}
+
+.itens-menu-footer a.contact-btn:hover {
+    border: 0;
+    background-color: #042da7;
+}
+
+
+
+
+/*-----------------------------------------------------
+----------------------RESPONSIVO-----------------------
+-----------------------------------------------------*/
+
+
+@media screen and (max-width: 768px) {
+
+    .diferenciais {
+        flex-wrap: wrap;
+    }
+    
+    .box-diferenciais {
+        width: 100%;
+        margin-right: 0;
+        flex-wrap: nowrap;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    section.marcas img {
+        margin: 0 auto;
+        width: 51%;
+        max-width: 100%;
+    }
+
+    .mockup img {
+        width: 90%;
+    }
+
+    .lista-beneficios {
+        width: 100%;
+        text-align: center;
+    }
+
+    .lista-beneficios p {
+        text-align: left;
+    }
+
+    .img-beneficios {
+        width: 100%;
+    }
+
+    .depoimentos-sec {
+        flex-wrap: wrap;
+    }
+
+    .box-depoimentos {
+        width: 100%;
+        margin-right: 0;
+        margin: 20px 0;
+    }
+
+    .itens-menu {
+        display: none;
+    }
+
+    .logo-menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    .itens-menu-footer {
+        display: none;
+    }
+
+    .menu-footer {
+        justify-content: center;
+    }
+
+}
